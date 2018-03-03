@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/circles"
+    android:id="@+id/linearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+
+    <TextView android:text="Click to Start the Game"
+        android:layout_width="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+         android:gravity="center"
+        android:layout_height="80dp"
+        android:id="@+id/tv"></TextView>
+
+    <TextView android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.11"></TextView>
+    <TextView android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:visibility="gone"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"></TextView>
+</LinearLayout>
